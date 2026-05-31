@@ -1,43 +1,58 @@
-Godot C# Exercises – Breakout Practice
-A small Godot 4 project created as a learning exercise while studying C# and game development.
+# Godot C# Breakout Practice
 
-Purpose
-This project was built to practice core Godot and C# concepts:
+A small Breakout-style project built with **Godot 4** and **C#**.
 
-C# scripting in Godot
-Scene instantiation (PackedScene)
-Collision detection with Area2D
-Signals
-Groups (IsInGroup)
-Movement using Vector2
-Delta time (delta)
-Basic game architecture
-Features
-Moving paddle
-Bouncing ball
-Brick collisions
-Brick destruction
-Screen border collisions
-What I Learned
-Loading scenes with GD.Load<PackedScene>()
-Instantiating scenes with Instantiate<T>()
-Working with exported variables ([Export])
-Connecting and handling signals
-Using collision groups
-Basic game loop programming
-Translating Godot concepts from GDScript to C#
-Disclaimer
-This is a learning project created while studying Godot and C#. It is intended for educational purposes and to document my progress as a developer.
+## Purpose
 
-Technologies
-Godot 4
-C#
-.NET
-Future Ideas
-Score system
-Particle effects
-Sound effects
-Fire shader for the ball
-Multiple levels
-Power-ups
-Better paddle-ball bounce physics
+This project was created as a learning exercise to practice game development fundamentals in Godot.
+
+The goal was not to create a complete game, but to gain experience with common Godot and C# workflows.
+
+## Concepts Practiced
+
+- C# scripting in Godot
+- Scene instantiation (`PackedScene`)
+- Collision detection with `Area2D`
+- Signals
+- Groups (`IsInGroup`)
+- `Vector2` movement
+- Delta time (`delta`)
+- Export variables (`[Export]`)
+- Basic game architecture
+
+## Features
+
+- Player-controlled paddle
+- Bouncing ball
+- Brick destruction
+- Screen border collision handling
+
+## Technologies
+
+- Godot 4
+- C#
+- .NET
+
+## Learning Goals
+
+This project was built to improve my understanding of:
+
+- Godot's scene system
+- Object instantiation
+- Event-driven programming with signals
+- Collision handling
+- Basic game mechanics
+
+## Future Improvements
+
+- Score system
+- Sound effects
+- Particle effects
+- Fire shader for the ball
+- Multiple levels
+- Power-ups
+- Improved collision physics
+
+## Notes
+
+This repository is part of my personal game development learning journey and serves as a collection of Godot and C# practice projects.
